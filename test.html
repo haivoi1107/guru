@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #e9d8f4;
+}
+
+.flex-container > div {
+  background-color: #58257b;
+  width: 33%;
+  color: white;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.l1{
+display: flex;
+flex-direction: column;
+background-color: blueviolet;
+}
+.l1 .l2{
+ width: 70%; 
+ background-color: red;
+}
+.l1 .l3{
+  width: 30%;
+}
+</style>
+</head>
+<body>
+<h1>Thuộc tính flex-direction</h1>
+
+<div class="flex-container">
+  <div class="l1">1.
+    <div class="l2">a</div>
+    <div class="l3">v</div>
+    <div></div>
+  </div>
+  <div>2</div>
+  <div>3</div> 
+</div>
+
+</body>
+</html>
